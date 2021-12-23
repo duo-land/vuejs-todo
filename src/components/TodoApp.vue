@@ -3,7 +3,7 @@
   <input class="todo-text-input" placeholder="Add todo" @keyup.enter="addNewTodoItem"/>
   <div class="todo-list">
 
-    <div class="todo-list-item" v-for="todo in filterTodoItems()">
+    <div class="todo-list-item" v-for="todo in filterTodoItems()" :key="todo.id">
       <div class="list-item">
         <input type="checkbox" :checked="todo.completed" @click="markTodoItemComplete($event, todo)"/>
         <div class="todo-text">{{todo.text}}</div>
