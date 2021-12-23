@@ -1,0 +1,19 @@
+{
+  "name": "amit-blog",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build asdf asdf asdf asdf sadf sadf sadf sadf",
+    "preview": "vite preview",
+    "clean": "rm -rf node_modules"
+  },
+  "dependencies": {
+    "pug": "^3.0.2",
+    "stylus": "^0.55.0",
+    "vue": "^3.2.23"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.10.2",
+    "vite": "^2.7.0"
+  }
+}
